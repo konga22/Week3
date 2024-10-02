@@ -25,6 +25,7 @@ public class Question9 {
                 break;
             case '/':
                 if (two !=0){ //2번째 숫자가 0이 아닐때
+                    System.out.println(one / two);
                     end = one / two; //계산
                 }else {//0일때
                     System.out.print("0으로 나누지 못해용");
